@@ -1,0 +1,189 @@
+body{
+    width: 96.3%;
+}
+#elsosor li{
+    display: inline;
+    margin-right: 40px;
+}
+#elsosor a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    padding: 5px;
+    background-color: white;
+    font-size: larger;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#elsosor a:hover {text-decoration: underline; text-decoration-thickness: 3px; text-decoration-color:blue ; }
+div {
+    width: 100%;
+    margin: 0px auto;
+    background-color: white;
+    
+}
+#cimek{
+    margin-top: 20px;
+}
+#vonal{
+    border-top: 1px solid blue;
+    width: 103%;
+
+}
+#TelóBirodalom{
+    font-family: 'Courier New', Courier, monospace;
+  border-right: 5px solid blue;
+  padding-top: 20px;
+  padding-bottom: 14px;
+  padding-right: 10px;
+  text-align: left;
+margin-left: -20;
+}
+#szin{
+    color: blue;
+    font-weight: bold;
+}
+.gomb{
+    text-decoration: none;
+    display: inline;
+    
+}
+#belepes{
+    float: right;
+    
+}
+button{
+    font-size: large;
+    border-radius: 5px;
+    border-color: blue;
+    padding: 7px;
+    color: white;
+background-color: Blue;
+margin-top: -12px;
+margin-left: -5px;
+}
+#kozepszoveg{
+    text-align: left;
+    font-size: calc(1rem + 1.0vw);
+    font-weight: 300;
+    line-height: 1.2;
+    margin-left: 70px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#kisszoveg{
+    font-size: 30px;  
+    color: blue;
+}
+#video{
+    float: right;
+ margin-top: 60px;
+}
+
+#reg{
+    margin-right: -60px;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+table, th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+}
+th {
+    background-color: blue;
+    color: white;
+}
+#jelentkezzbe{
+    color: blue;
+    text-align: center;
+    font-size: 60px;
+}
+label{
+    padding-left: 30px;
+}
+input{
+    padding: 5px;
+    margin-top: 50px;
+}
+#Kemail{
+    padding-right: 45px;
+    font-size: x-large;
+    font-weight: bold;
+}
+#Knev{
+    padding-right: 69px;
+    font-size: x-large;
+    font-weight: bold;
+}
+#Kphone{
+    padding-right: 3px;
+    font-size: x-large;
+    font-weight: bold;
+}
+#szoveg{
+    margin-top: 20px;
+}
+#megjegyzestext{
+    margin-top: 60px;
+    padding-left: 0px;
+}
+#urlap{
+text-align: center;
+}
+#kuld{
+    background-color: blue;
+    color: white;
+    border-radius:5px;
+    border: 5px solid blue;
+}
+#belep{
+    background-color: Blue;
+    color: white;
+    border-radius:5px;
+    border: 5px solid blue;
+}
+#register{
+    background-color: blue;
+    color: white;
+    border-radius:5px;
+    border: 5px solid blue;
+}
+.reglog{
+    color: blue;
+    font-weight: bold;
+    font-size: large;
+}
+.Telefon-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.Telefon {
+    width: calc(50% - 20px);
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.Telefon img {
+    display: block;
+    margin: 0  auto;
+    max-width: 100%;
+    height: auto;
+}
+@media (min-width: 768px) {
+    .Telefon {
+        width: calc(33.33% - 20px);
+    }
+}
+.video{
+    width: 60%;
+    text-align: center;
+    margin: auto;
+  }
+.video video{
+    width: 100%;
+    text-align: center;
+    margin: auto;
+}
